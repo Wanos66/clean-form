@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<form action="#" method="post">
+		<h1>Get In Touch</h1>
+	  <div class="form-group">
+	    <label for="name" class="required">Name</label>
+	    <input type="text" class="form-control" id="name" required>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleFormControlInput1" class="required">Email address</label>
+	    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+	  </div>
+	  <div class="form-group">
+	    <label for="telephone">Telephone</label>
+	    <input type="tel" class="form-control" id="telephone" placeholder="optional">
+	  </div>
+	  <input type="text" name="fence" style="display: none;">
+	  <div class="form-group">
+	    <label for="exampleFormControlTextarea1" class="required">Your Enquiry</label>
+	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+	  </div>
+	  <p><small>* Required</small></p>
+	  <div class="form-group check-group">
+	  	<div class="form-check form-control">
+		  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  	<label class="form-check-label signup" for="defaultCheck1">
+		    	Yes, sign me up to the newsletter
+		  	</label>
+			</div>
+			<div class="form-check form-control">
+		  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+		  	<label class="form-check-label" for="defaultCheck2">
+		    	Please agree to our <a href="#myModal" id="myBtn">Privacy Policy</a>
+		  	</label>
+			</div>
+			<input type="submit" value="Continue" class="btn btn-submit" id="submitBtn">
+		</div><!-- /.check-group -->
+	  	
+	</form>
+
+	<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">close &times;</span>
+    <h2>Privacy Policy</h2>
+    <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+
+		<p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.</p>
+
+		<p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+
+		<p>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify pea sprouts fava bean. Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.</p>
+		<button class="btn btn-close" id="closeBtn">Close</button>
+  </div><!-- /.modal-content -->
+
+</div><!-- /.modal -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
