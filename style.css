@@ -84,7 +84,8 @@ margin-bottom: 0.25em;
 }
 
 .required::after{
-  content: " *";
+  content: " required";
+  font-size: 0.75em;
   color: red;
 }
 
