@@ -21,8 +21,13 @@ window.onclick = function(event) {
   }
 }
 
-$(document).ready(function(){
-  $("form").submit(function(){
-    alert('This form has been submitted.');
-  });
+$("#contact-form").on("submit",function(e) {
+   e.preventDefault(); // cancel submission
+   window.location.replace("success.html");
 });
+
+// $(document).ready(function(){
+//   $("form").submit(function(){
+//     alert('This form has been submitted.');
+//   });
+// });
