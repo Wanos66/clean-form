@@ -1,23 +1,23 @@
-let modal = document.getElementById('myModal');
-let btn = document.getElementById("myBtn");
-let span = document.getElementsByClassName("close")[0];
-let closeBtn = document.getElementById("closeBtn");
+const MODAL = document.getElementById('myModal');
+const BTN = document.getElementById("myBtn");
+const SPAN = document.getElementsByClassName("close")[0];
+const CLOSEBTN = document.getElementById("closeBtn");
 
-btn.onclick = function() {
-  modal.style.display = "block";
+BTN.onclick = function() {
+  MODAL.style.display = "block";
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+SPAN.onclick = function() {
+  MODAL.style.display = "none";
 }
 
-closeBtn.onclick = function() {
-	modal.style.display = 'none';
+CLOSEBTN.onclick = function() {
+	MODAL.style.display = 'none';
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == MODAL) {
+    MODAL.style.display = "none";
   }
 }
 
